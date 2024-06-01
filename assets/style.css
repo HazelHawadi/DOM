@@ -9,6 +9,12 @@
 }
 
 /*General body styles*/
+body, h1 {
+    padding-top: 4%;
+    padding-bottom: 0px;
+    color: #fff;
+    font-size: 180%;
+}
 body {
     background: url(../assets/images/pexels-markusspiske-1089438.jpg)no-repeat right center/cover;
     font-family: Roboto, sans-serif;
@@ -42,7 +48,6 @@ body {
 }
 
 #progress {
-    padding-top: 10px;
     height: 100%;
     width: 0;
     background: #4caf50;
@@ -69,9 +74,9 @@ body {
     background-color: #0056b3; /*changes the color of the answer buttons when the ponter is over them*/
 }
 
+/*Styles for the next question button*/
 .next-btn {
     margin-top: 20px;
-    display: none;
 }
 
 .next {
