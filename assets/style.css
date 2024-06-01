@@ -54,3 +54,13 @@ body {
     gap: 10px;
 }
 
+.btn {
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
