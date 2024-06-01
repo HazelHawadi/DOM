@@ -8,8 +8,9 @@
     box-sizing: border-box;
 }
 
+/*General body styles*/
 body {
-    background: url(../assets/images/pexels-markusspiske-1089438.jpg);
+    background: url(../assets/images/pexels-markusspiske-1089438.jpg)no-repeat right center/cover;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
@@ -17,17 +18,17 @@ body {
     margin: 0;
 }
 
+/*Quiz Area styles*/
 .quiz-area {
     background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px; /*controls the edges of the quiz box*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
     overflow: hidden;
     width: 80%;
     max-width: 500px;
     text-align: center;
     padding: 20px;
     margin-top: 150px;
-    z-index: 1;
     position: relative;
 }
 
@@ -89,3 +90,5 @@ body {
 
 
 background: url(../assets/images/pexels-markusspiske-1089438.jpg);
+
+
