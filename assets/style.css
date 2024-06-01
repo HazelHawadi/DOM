@@ -32,6 +32,7 @@ body {
     position: relative;
 }
 
+/*styles for the progress bar*/
 #progress-bar {
     height: 10px;
     background: #e0e0e0;
@@ -46,49 +47,4 @@ body {
     background: #4caf50;
     transition: width 0.4s;
 }
-
-.btn-container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.btn {
-    padding: 10px;
-    background-color: #007bff;
-    border: none;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.btn:hover {
-    background-color: #0056b3;
-}
-
-.next-btn {
-    margin-top: 20px;
-    display: none;
-}
-
-.next {
-    display: none;
-}
-
-#result-area {
-    margin-top: 20px;
-}
-
-.correct {
-    background-color: #4caf50;
-}
-
-.wrong {
-    background-color: #f44336;
-}
-
-
-background: url(../assets/images/pexels-markusspiske-1089438.jpg);
-
 
