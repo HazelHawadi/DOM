@@ -42,12 +42,13 @@ body {
 }
 
 #progress {
+    padding-top: 10px;
     height: 100%;
     width: 0;
     background: #4caf50;
     transition: width 0.4s;
 }
-
+/*Styles for the Answer Buttons*/
 .btn-container {
     display: flex;
     flex-direction: column;
@@ -65,6 +66,19 @@ body {
 }
 
 .btn:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /*changes the color of the answer buttons when the ponter is over them*/
+}
+
+.next-btn {
+    margin-top: 20px;
+    display: none;
+}
+
+.next {
+    display: none;
+}
+
+#result-area {
+    margin-top: 20px;
 }
 
