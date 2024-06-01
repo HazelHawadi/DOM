@@ -1,16 +1,91 @@
 /*Font Styles*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/*Asterisk Wildcard Selector*/
+* {
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
+    background: url(../assets/images/pexels-markusspiske-1089438.jpg);
     font-family: Roboto, sans-serif;
-    padding-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0;
 }
 
-#hero {
-    width: 100%;
-    max-height: 300px;
-    object-fit: cover;
+.quiz-area {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 150px;
+    z-index: 1;
+    position: relative;
 }
+
+#progress-bar {
+    height: 10px;
+    background: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#progress {
+    height: 100%;
+    width: 0;
+    background: #4caf50;
+    transition: width 0.4s;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.next-btn {
+    margin-top: 20px;
+    display: none;
+}
+
+.next {
+    display: none;
+}
+
+#result-area {
+    margin-top: 20px;
+}
+
+.correct {
+    background-color: #4caf50;
+}
+
+.wrong {
+    background-color: #f44336;
+}
+
+
+background: url(../assets/images/pexels-markusspiske-1089438.jpg);
