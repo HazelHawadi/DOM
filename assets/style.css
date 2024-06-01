@@ -1,44 +1,47 @@
-/*Font Styles*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Font Styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 /*Asterisk Wildcard Selector*/
 * {
-    padding: 20px;
+    padding: 20px; 
     margin: 0;
     box-sizing: border-box;
 }
 
-/*General body styles*/
-body, h1 {
-    padding-top: 4%;
-    padding-bottom: 0px;
-    color: #fff;
-    font-size: 180%;
-}
+/* General body styles */
 body {
-    background: url(../assets/images/pexels-markusspiske-1089438.jpg)no-repeat right center/cover;
-    font-family: Roboto, sans-serif;
+    background: url('../assets/images/pexels-markusspiske-1089438.jpg') no-repeat right center/cover;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #fff;
     margin: 0;
+    padding-top: 4%; /*padding to control the space at the top*/
 }
 
-/*Quiz Area styles*/
+/* Quiz heading style */
+h1 {
+    font-size: 180%;
+    padding-bottom: 20px;
+}
+
+/* Quiz Area styles */
 .quiz-area {
     background: #fff;
-    border-radius: 30px; /*controls the edges of the quiz box*/
+    border-radius: 30px; /* Controls the edges of the quiz box */
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
     overflow: hidden;
     width: 80%;
     max-width: 500px;
     text-align: center;
     padding: 20px;
-    margin-top: 150px;
+    margin-top: 20px; /* Ensure there's space between the heading and quiz area */
     position: relative;
+    color: #000; /* makes sure the text inside quiz area is visible */
 }
 
-/*styles for the progress bar*/
+/* Styles for the progress bar */
 #progress-bar {
     height: 10px;
     background: #e0e0e0;
@@ -53,7 +56,8 @@ body {
     background: #4caf50;
     transition: width 0.4s;
 }
-/*Styles for the Answer Buttons*/
+
+/* Styles for the Answer Buttons */
 .btn-container {
     display: flex;
     flex-direction: column;
@@ -66,15 +70,15 @@ body {
     border: none;
     color: white;
     border-radius: 5px;
-    cursor: pointer;
+    cursor: pointer; /*makes the pointer change style when its over the answer section*/
     transition: background-color 0.3s;
 }
 
 .btn:hover {
-    background-color: #0056b3; /*changes the color of the answer buttons when the ponter is over them*/
+    background-color: #0056b3; /* Changes the color of the answer buttons when the pointer is over them */
 }
 
-/*Styles for the next question button*/
+/* Styles for the next question button */
 .next-btn {
     margin-top: 20px;
 }
@@ -86,4 +90,3 @@ body {
 #result-area {
     margin-top: 20px;
 }
-
