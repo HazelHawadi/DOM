@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style.css">
     <title>Document</title>
 </head>
+
 <body>
+    <img id="hero" src="assets/images/pexels-sevenstormphotography-704767.jpg" alt="a picture with numbers">
     <div class="quiz-area" id="quiz">
         <div id="progress-bar">
             <div id="progress"></div>
         </div>
-        <div id="questions-area">
-            <div id="question">Question:</div>
+        <div id="question-area">
+            <div id="question">Questions:</div>
             <div id="answer-buttons" class="btn-container">
                 <button class="btn">Answer 1</button>
                 <button class="btn">Answer 2</button>
                 <button class="btn">Answer 3</button>
                 <button class="btn">Answer 4</button>
+            </div>
+        </div>
+        <button id="next-btn" class="btn next-btn">Next</button>
+        <div id="result-area" class="next">
+            <h2 id="result"></h2>
         </div>
     </div>
-  
+
     <script src="assets/script.js"></script>
 </body>
+
 </html>
