@@ -150,3 +150,18 @@ const nextButton = document.getElementById('next-btn');
 const progressBar = document.getElementById('progress');
 const resultArea = document.getElementById('result-area');
 const result = document.getElementById('result');
+
+// Start the quiz
+startQuiz();
+
+// Function to start the quiz
+function startQuiz() {
+    shuffleQuestions = questions.sort(() => Math.random() - 0.5);
+    currentQuestionIndex = 0;
+    score = 0; // to reset the score
+    resultContainer.classList.add('hide'); // to hide the result area
+    nextButton.classList.add('hide'); // to hide the next button
+    progressBar.style.width = '0%';
+    questionContainer.classList.remove('hide'); // to show the question area
+    question(); // to show the first question
+}
