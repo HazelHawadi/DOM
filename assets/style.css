@@ -22,9 +22,10 @@ body {
 
 /* Quiz heading style */
 h1 {
-    font-size: 180%;
+    font-size: 190%;
     padding-bottom: 20px;
     font-family: 'Play', sans-serif;
+    text-transform: uppercase;
 }
 
 /* Quiz Area styles */

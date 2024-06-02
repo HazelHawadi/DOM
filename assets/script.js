@@ -157,11 +157,11 @@ startQuiz();
 // Function to start the quiz
 function startQuiz() {
     shuffleQuestions = questions.sort(() => Math.random() - 0.5);
-    currentQuestionIndex = 0;
+    questionIndex = 0;
     score = 0; // to reset the score
-    resultContainer.classList.add('hide'); // to hide the result area
+    resultArea.classList.add('hide'); // to hide the result area
     nextButton.classList.add('hide'); // to hide the next button
-    progressBar.style.width = '0%';
-    questionContainer.classList.remove('hide'); // to show the question area
+    progressBar.style.width = '1%';
+    questionArea.classList.remove('hide'); // to show the question area
     question(); // to show the first question
 }
