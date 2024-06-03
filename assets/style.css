@@ -26,6 +26,7 @@ h1 {
     padding-bottom: 20px;
     font-family: 'Play', sans-serif;
     text-transform: uppercase;
+    background-color: #000;
 }
 
 /* Quiz Area styles */
@@ -41,6 +42,7 @@ h1 {
     margin-top: 10px; /* makes sure there's space between the heading and quiz area */
     position: relative;
     color: #000; /* makes sure the text inside quiz area is visible */
+    font-size: large;
 }
 
 /* Styles for the progress bar */
@@ -70,7 +72,7 @@ h1 {
     padding: 10px;
     background-color: #007bff;
     border: none;
-    color: white;
+    color: black;
     border-radius: 5px;
     cursor: pointer; /*makes the pointer change style when its over the answer section*/
     transition: background-color 0.3s;
@@ -101,8 +103,22 @@ h1 {
     h1 {
         font-size: 90%;
         padding-bottom: 20px;
-        font-family: 'Play', sans-serif;
-        text-transform: uppercase;
     }
     
+}
+
+@media (max-width: 320px) {
+    .quiz-area {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 90%;
+        padding-bottom: 20px;
+    }
+
+    #progress-bar {
+        height: 6px;
+        margin-bottom: 10px;
+    }
 }
