@@ -37,8 +37,8 @@ h1 {
     width: 80%;
     max-width: 500px;
     text-align: center;
-    padding: 20px;
-    margin-top: 20px; /* Ensure there's space between the heading and quiz area */
+    padding: 10px;
+    margin-top: 10px; /* makes sure there's space between the heading and quiz area */
     position: relative;
     color: #000; /* makes sure the text inside quiz area is visible */
 }
@@ -91,4 +91,18 @@ h1 {
 
 #result-area {
     margin-top: 20px;
+}
+
+@media (max-width: 414px) {
+    .quiz-area {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 90%;
+        padding-bottom: 20px;
+        font-family: 'Play', sans-serif;
+        text-transform: uppercase;
+    }
+    
 }

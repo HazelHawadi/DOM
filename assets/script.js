@@ -161,14 +161,14 @@ function startQuiz() {
     score = 0; // to reset the score
     resultArea.classList.add('hide'); // to hide the result area
     nextButton.classList.add('hide'); // to hide the next button
-    progressBar.style.width = '1%';
+    progressBar.style.width = '0%';
     questionArea.classList.remove('hide'); // to show the question area
     question(); // to show the first question
 }
 
 // Function to display the current question
 function showQuestion() {
-    resetState(); // to reset for new question
+    //resetState(); // to reset for new question
     progressBar.style.width = `${(questionIndex / shuffleQuestions.length) * 100}%`; // Update progress bar
     const question = shuffleQuestions[questionIndex]; 
     questionElement.innerText = question.question; //will display the question text
