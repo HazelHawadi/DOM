@@ -10,7 +10,7 @@
 
 /* General body styles */
 body {
-    background: url('../assets/images/pexels-markusspiske-1089438.jpg') no-repeat right center/cover;
+    background: url('../assets/images/iStock-1212064060.jpg') no-repeat center center/cover;
     font-family: 'Play', sans-serif;
     display: flex;
     flex-direction: column;
@@ -18,6 +18,7 @@ body {
     color: #fff;
     margin: 0;
     padding-top: 4%; /*padding to control the space at the top*/
+    min-height: 100vh;
 }
 
 /* Quiz heading style */
@@ -111,6 +112,23 @@ h1 {
     margin-top: 20px;
 }
 
+/*TO FIX!!!*/
+@media (max-width: 345px) {
+    .quiz-area {
+        max-width: 40vh;
+    }
+
+    h1 {
+        font-size: 90%;
+        padding-bottom: 20px;
+    }
+
+    #progress-bar {
+        height: 6px;
+        margin-bottom: 10px;
+    }
+}
+
 @media (max-width: 414px) {
     .quiz-area {
         width: 100%;
@@ -123,18 +141,43 @@ h1 {
     
 }
 
-@media (max-width: 320px) {
+/*Media Query for large devices (laptops and desktops, 992px and up) */
+@media screen and (max-width: 1400px) {
+     /* Quiz Area styles */
     .quiz-area {
-        width: 100%;
+        min-width: 50vh;
+        min-height: 35vh;
+        padding: 20px;
+        font-size: large;
+        margin-top: 30px; /* makes sure there's space between the heading and quiz area */
+
     }
 
     h1 {
-        font-size: 90%;
+        font-size: xx-large;
         padding-bottom: 20px;
     }
 
-    #progress-bar {
-        height: 6px;
-        margin-bottom: 10px;
-    }
+/* Styles for the progress bar */
+#progress-bar {
+    height: 15px;
+}
+
+#progress {
+    height: 100%;
+}
+
+#question-area {
+    font-size: x-large;
+}
+
+/* Styles for the Answer Buttons */
+.btn-container {
+    gap: 10px;
+}
+
+.btn {
+
+    font-size: 25px;
+}
 }
