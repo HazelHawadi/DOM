@@ -43,6 +43,7 @@ h1 {
     position: relative;
     color: #000; /* makes sure the text inside quiz area is visible */
     font-size: large;
+    min-height: 300px; /* Minimum height to prevent resizing */
 }
 
 /* Styles for the progress bar */
@@ -80,6 +81,21 @@ h1 {
 
 .btn:hover {
     background-color: #0056b3; /* Changes the color of the answer buttons when the pointer is over them */
+}
+
+.btn.selected {
+    background-color: #0056b3;
+    color: white;
+}
+
+.btn.correct {
+    background-color: rgb(6, 161, 6);
+    color: white;
+}
+
+.btn.wrong {
+    background-color: #c21307;
+    color: white;
 }
 
 /* Styles for the next question button */
