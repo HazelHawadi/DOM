@@ -117,7 +117,7 @@ h1 {
     margin-top: 20px;
 }
 
-/*TO FIX!!!*/
+/*Media Queries*/
 @media (max-width: 345px) {
     .quiz-area {
         max-width: 40vh;
