@@ -33,18 +33,23 @@ h1 {
 /* Quiz Area styles */
 .quiz-area {
     background: #fff;
-    border-radius: 30px; /* Controls the edges of the quiz box */
+    border-radius: 8px; /* Controls the edges of the quiz box */
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
     overflow: hidden;
     width: 80%;
     max-width: 500px;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     margin-top: 10px; /* makes sure there's space between the heading and quiz area */
     position: relative;
     color: #000; /* makes sure the text inside quiz area is visible */
     font-size: large;
     min-height: 300px; /* Minimum height to prevent resizing */
+}
+
+.quiz-container {
+    width: 100%;
+    max-width: 600px; 
 }
 
 /* Styles for the progress bar */
@@ -141,43 +146,63 @@ h1 {
     
 }
 
-/*Media Query for large devices (laptops and desktops, 992px and up) */
-@media screen and (max-width: 1400px) {
-     /* Quiz Area styles */
+/* Media queries for smaller devices */
+@media screen and (max-width: 768px) {
     .quiz-area {
-        min-width: 50vh;
-        min-height: 35vh;
-        padding: 20px;
-        font-size: large;
-        margin-top: 30px; /* makes sure there's space between the heading and quiz area */
-
+        padding: 16px;
     }
 
-    h1 {
-        font-size: xx-large;
-        padding-bottom: 20px;
+    #question {
+        font-size: 18px;
     }
 
-/* Styles for the progress bar */
-#progress-bar {
-    height: 15px;
+    .btn-container {
+        display: grid;
+        grid-template-columns: minmax(120px, 1fr);
+        gap: 10px;
+    }
+
+    .btn {
+        font-size: 17px;
+        padding: 8px;
+    }
+
+    .next-btn {
+        font-size: 17px;
+        padding: 8px 16px;
+    }
+
+    #restart-btn {
+        font-size: 17px;
+        padding: 8px 16px;
+    }
 }
 
-#progress {
-    height: 100%;
-}
+@media screen and (max-width: 480px) {
+    .quiz-area {
+        padding: 10px;
+    }
 
-#question-area {
-    font-size: x-large;
-}
+    #question {
+        font-size: 15px;
+    }
 
-/* Styles for the Answer Buttons */
-.btn-container {
-    gap: 10px;
-}
+    .btn-container {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
 
-.btn {
+    .btn {
+        font-size: 15px;
+        padding: 6px;
+    }
 
-    font-size: 25px;
-}
+    .next-btn {
+        font-size: 15px;
+        padding: 6px 12px;
+    }
+
+    #restart-btn {
+        font-size: 15px;
+        padding: 6px 12px;
+    }
 }
