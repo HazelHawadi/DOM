@@ -1,8 +1,14 @@
+//variables to keep track of the current state of the quiz
+let currentQuestionIndex = 0;
+let score = 0;
+let quizCompleted = false;
+
+// DOM elements
 const questionElement = document.getElementById('question');
 const answerButtonsElement = document.getElementById('answer-buttons'); 
 const nextButton = document.getElementById('next-btn'); 
 const resultArea = document.getElementById('result-area');
-const resultElement = document.getElementById('result'); // 
+const resultElement = document.getElementById('result'); 
 const restartButton = document.getElementById('restart-btn');
 const progressElement = document.getElementById('progress');
 
