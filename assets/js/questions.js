@@ -1,128 +1,72 @@
 const questions = [
     {
         question: 'What is the correct syntax to create a new object in JavaScript?',
-        answers: [
-            { text: 'var obj = [];', correct: false },
-            { text: 'var obj = new Array();', correct: false },
-            { text: 'var obj = {};', correct: true },
-            { text: 'var obj = Object[];', correct: false }
-        ]
+        answers: ['var obj = [];', 'var obj = new Array();', 'var obj = {};', 'var obj = Object[];'],
+        correctAnswer: 'var obj = {};'
     },
     {
         question: 'Which method can be used to find the length of a string?',
-        answers: [
-            { text: 'length()', correct: false },
-            { text: 'length', correct: true },
-            { text: 'len()', correct: false },
-            { text: 'size()', correct: false }
-        ]
+        answers: ['length()', 'length', 'len()', 'size()'],
+        correctAnswer: 'length'
     },
     {
         question: 'How do you write an arrow function in JavaScript?',
-        answers: [
-            { text: 'function myFunction() => {}', correct: false },
-            { text: 'myFunction() => {}', correct: false },
-            { text: 'var myFunction = function() {}', correct: false },
-            { text: 'const myFunction = () => {}', correct: true }
-        ]
+        answers: ['function myFunction() => {}', 'myFunction() => {}', 'var myFunction = function() {}', 'const myFunction = () => {}'],
+        correctAnswer: 'const myFunction = () => {}'
     },
     {
         question: 'What is the output of the following code: "console.log(typeof null);"?',
-        answers: [
-            { text: 'null', correct: false },
-            { text: 'object', correct: true },
-            { text: 'undefined', correct: false },
-            { text: 'number', correct: false }
-        ]
+        answers: ['null', 'object', 'undefined', 'number'],
+        correctAnswer: 'object'
     },
     {
         question: 'Which of the following is a correct way to create an array in JavaScript?',
-        answers: [
-            { text: 'var arr = array(1, 2, 3);', correct: false },
-            { text: 'var arr = [1, 2, 3];', correct: true },
-            { text: 'var arr = (1, 2, 3);', correct: false },
-            { text: 'var arr = {1, 2, 3};', correct: false }
-        ]
+        answers: ['var arr = array(1, 2, 3);', 'var arr = [1, 2, 3];', 'var arr = (1, 2, 3);', 'var arr = {1, 2, 3};'],
+        correctAnswer: 'var arr = [1, 2, 3];'
     },
     {
         question: 'What does HTML stand for?',
-        answers: [
-            { text: 'Hyper Text Markup Language', correct: true },
-            { text: 'Hyper Trainer Marking Language', correct: false },
-            { text: 'Hyper Text Marketing Language', correct: false },
-            { text: 'Hyper Text Markup Leveler', correct: false }
-        ]
+        answers: ['Hyper Text Markup Language', 'Hyper Trainer Marking Language', 'Hyper Text Marketing Language', 'Hyper Text Markup Leveler'],
+        correctAnswer: 'Hyper Text Markup Language'
     },
     {
         question: 'Which HTML tag is used to define an internal style sheet?',
-        answers: [
-            { text: '<script>', correct: false },
-            { text: '<css>', correct: false },
-            { text: '<style>', correct: true },
-            { text: '<link>', correct: false }
-        ]
+        answers: ['<script>', '<css>', '<style>', '<link>'],
+        correctAnswer: '<style>'
     },
     {
         question: 'How can you create a hyperlink in HTML?',
-        answers: [
-            { text: '<a link="url">link text</a>', correct: false },
-            { text: '<link href="url">link text</link>', correct: false },
-            { text: '<a url="url">link text</a>', correct: false },
-            { text: '<a href="url">link text</a>', correct: true }
-        ]
+        answers: ['<a link="url">link text</a>', '<link href="url">link text</link>', '<a url="url">link text</a>', '<a href="url">link text</a>'],
+        correctAnswer: '<a href="url">link text</a>'
     },
     {
         question: 'Which HTML element is used to specify a footer for a document or section?',
-        answers: [
-            { text: '<footer>', correct: true },
-            { text: '<bottom>', correct: false },
-            { text: '<section>', correct: false },
-            { text: '<foot>', correct: false }
-        ]
+        answers: ['<footer>', '<bottom>', '<section>', '<foot>'],
+        correctAnswer: '<footer>'
     },
     {
         question: 'What is the purpose of the "<head>" element in HTML?',
-        answers: [
-            { text: 'To include the main content of the document', correct: false },
-            { text: 'To create a header for the document', correct: false },
-            { text: 'To contain metadata about the document', correct: true },
-            { text: 'To specify the footer of the document', correct: false }
-        ]
+        answers: ['To include the main content of the document', 'To create a header for the document', 'To contain metadata about the document', 'To specify the footer of the document'],
+        correctAnswer: 'To contain metadata about the document'
     },
     {
         question: 'What does CSS stand for?',
-        answers: [
-            { text: 'Cascading Style Sheets', correct: true },
-            { text: 'Colorful Style Sheets', correct: false },
-            { text: 'Creative Style Sheets', correct: false },
-            { text: 'Computer Style Sheets', correct: false }
-        ]
+        answers: ['Cascading Style Sheets', 'Colorful Style Sheets', 'Creative Style Sheets', 'Computer Style Sheets'],
+        correctAnswer: 'Cascading Style Sheets'
     },
     {
         question: 'How do you add a background color in CSS?',
-        answers: [
-            { text: 'color: red;', correct: false },
-            { text: 'background-color: red;', correct: true },
-            { text: 'bg-color: red;', correct: false },
-            { text: 'background: red;', correct: false }
-        ]
+        answers: ['color: red;', 'background-color: red;', 'bg-color: red;', 'background: red;'],
+        correctAnswer: 'background-color: red;'
     },
     {
         question: 'Which property is used to change the text color of an element?',
-        answers: [
-            { text: 'text-color', correct: false },
-            { text: 'fgcolor', correct: false },
-            { text: 'color', correct: true },
-            { text: 'font-color', correct: false }
-        ]
+        answers: ['text-color', 'fgcolor', 'color', 'font-color'],
+        correctAnswer: 'color'
     },
     {
         question: 'How do you select an element with id "demo" in CSS?',
-        answers: [
-            { text: '.demo', correct: false },
-            { text: '*demo', correct: false },
-            { text: '#demo', correct: true },
-            { text: 'demo', correct: false }
-        ]
+        answers: ['.demo', '*demo', '#demo', 'demo'],
+        correctAnswer: '#demo'
     }
 ];
