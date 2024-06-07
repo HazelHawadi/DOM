@@ -160,3 +160,14 @@ ADD IMAGE TESTS FOR DESKTOP AND MOBILE
 
 ### Media
 - Backround image - [koto_feja](https://www.istockphoto.com/search/2/image?alloweduse=availableforalluses&_colorindex=%230095ff&mediatype=illustration&numberofpeople=none&phrase=koto_feja)
+
+
+
+
+
+## Acknowledgements
+I would like to thank Chris Quinn (Mentor) for his guidance and advice.
+
+A big thanks to Slack Community for for always being someone willing to answer my questions.
+
+Also Amy (Cohort Facilitator) who does check up on my progress.
