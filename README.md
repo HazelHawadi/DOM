@@ -8,9 +8,35 @@
 ## Project Overview
 The Test Your Knowledge Quiz is designed to assist students and anyone interested in learning and understanding the basics of JavaScript, HTML, and CSS. This interactive quiz allows users to test their knowledge through multiple-choice questions and instantly receive feedback on their answers. Whether you're preparing for an assessment or simply interested in advancing your knowledge, this quiz provides an engaging way to learn and assess your understanding of these subjects.
 
-
 ## Goal
 The goal of the quiz is to help users prepare for assessments and deepen their understanding of JavaScript, HTML, and CSS concepts. By engaging in this quiz, users can assess their knowledge in a practical setting and identify areas for further study.
+
+## Features
+### Home Page
+ADD HOME PAGE IMAGE
+
+- Quiz Title: "Test Your Knowledge: JavaScript, HTML, CSS".
+- Start Button: Allows users to initiate the quiz.
+
+### The Quiz
+- Question Area: Presents questions related to JavaScript, HTML, and CSS.
+- Answer Choices: Multiple-choice options for each question to choose from.
+- Score Area: Displays the progress.
+- Feedback: Provides immediate feedback on correct and incorrect answers.
+- Next Button: Allows users to go to the next question only after selecting an answer.
+
+### Result Page
+- Final Score: Displays the user's final score.
+- Restart Quiz Button: Option to retake the quiz for more practice.
+
+### Color Scheme
+ADD COLORSCHEME IMAGE
+
+**Why These Colors?**
+- The combination of blue, gray, green, and red creates a great color palette. It is visually appealing and maintains user interest.
+- The colors are used strategically to differentiate between actions and  information, providing a clear user interface.
+- The colors (green and red) provide immediate visual feedback.
+- The selected colors ensure a consistent look throughout the quiz, making it easy to navigate for users of all ages and backgrounds.
 
 ### Existing Features
 - Quiz Area: Allows users to answer multiple-choice questions on JavaScript, HTML, and CSS.
