@@ -1,7 +1,7 @@
 //variables to keep track of the current state of the quiz
-let currentQuestionIndex = 0;
+let questionIndex = 0;
 let score = 0;
-let quizCompleted = false;
+let quizEnded = false;
 
 // DOM elements
 const questionElement = document.getElementById('question');
@@ -12,32 +12,32 @@ const resultElement = document.getElementById('result');
 const restartButton = document.getElementById('restart-btn');
 const progressElement = document.getElementById('progress');
 
-// Function to start the quiz
+/**Function to start the quiz */
 function startQuiz() {
    
 }
 
-// Function to display the current question and answer choices
+/**Function to display the current question and answer choices */
 function showQuestion() {
 
 }
 
-// Function to handle the answer selection
+/**Function to handle the answer selection */
 function selectAnswer() {
     
 }
 
-// Function to set if the answer selected is correct or wrong 
+/**Function to set if the answer selected is correct or wrong */ 
 function correctWrong() {
     
 }
 
-// Function to display the result
+/**Function to display the result */
 function showResult() {
     
 }
 
-// Event listener for the next button
+/**Event listener for the next button */
 nextButton.addEventListener(
 
 );
