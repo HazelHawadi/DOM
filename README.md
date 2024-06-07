@@ -151,7 +151,12 @@ ADD IMAGE TESTS FOR DESKTOP AND MOBILE
     - Refresh the page and the link to the deployed website will be available in a highlighted sub-section on the top of the page.
     - Click on the link to go to the live site.
 
-
-
 [A link for the live website]()
 
+## Credits 
+### Content 
+- Text Font - https://fonts.google.com/
+- Questions from-  [Code Institute](https://learn.codeinstitute.net)
+
+### Media
+- Backround image - [koto_feja](https://www.istockphoto.com/search/2/image?alloweduse=availableforalluses&_colorindex=%230095ff&mediatype=illustration&numberofpeople=none&phrase=koto_feja)
