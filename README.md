@@ -3,7 +3,8 @@
 ## Table Of Contents
 
 ![Website Mockup](ADD IMAGE OF THE MOCKUP)
-[Here is a link to the live website](ADD LINK ONCE DEPLOYED)
+
+[This is a link to the live website](https://hazelhawadi.github.io/Test-Your-Knowledge/)
 
 ## Project Overview
 The Test Your Knowledge Quiz is designed to assist students and anyone interested in learning and understanding the basics of JavaScript, HTML, and CSS. This interactive quiz allows users to test their knowledge through multiple-choice questions and instantly receive feedback on their answers. Whether you're preparing for an assessment or simply interested in advancing your knowledge, this quiz provides an engaging way to learn and assess your understanding of these subjects.
@@ -151,7 +152,27 @@ ADD IMAGE TESTS FOR DESKTOP AND MOBILE
     - Refresh the page and the link to the deployed website will be available in a highlighted sub-section on the top of the page.
     - Click on the link to go to the live site.
 
-[A link for the live website]()
+[A link for the live website](https://hazelhawadi.github.io/Test-Your-Knowledge/)
+
+## How to run the project Locally
+- **Clone the repository as follows:**
+    - Go to GitHub **Repositories**.
+    - select Test Your Knowlwedge
+    - Click the **Code** drop-down menu and click the HTTPS sub-heading in the **local** tab.
+    - Copy the link.
+    - Open an IDE you prefer to use.
+    -Open a terminal in the directory, type git clone and paste the link.
+    - A clone of the repository will be created on your device.
+
+## Download the repository manually
+
+1. Navigate to the GitHub Repository anatomy-quiz.
+2. Click the Code drop-down menu.
+3. Click Download ZIP.
+4. Locate the ZIP file and extract it to a folder where you want the repository to be stored.
+5. Open an IDE of your choice (VSCode, Atom, Komodo, etc).
+6. Navigate to the directory where the repository was extracted.
+7. Now you will have the contents of the project available offline on your machine.
 
 ## Credits 
 ### Content 
